@@ -9,6 +9,7 @@ const heurParValeur=document.querySelectorAll('.heure-prevision-valeur')
 const jourDiv=document.querySelectorAll('.jour-pevision-nom')
 const tempsjour=document.querySelectorAll('.jour-pevision-temp')
 const icone=document.querySelector('.logo-meteo')
+const chargement=document.querySelector('.logo-meteo')
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(position =>{
         let long=position.coords.longitude;
